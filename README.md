@@ -17,12 +17,30 @@
  
  El path es `/fibonacci/`
  
- El parámetro _`position`_ indica la posición que se desea calcular, debe ser 0 o positivo
+ El parámetro `position` indica la posición que se desea calcular, debe ser 0 o positivo
  
- URL _`proto://host:8080/fibonacci/{position}`_
+ URL `protocol://host:8080/fibonacci/{position}`
 
 ### ENGLISH
- This demo...
+ This Restful API demo was done with Spring Boot
+ 
+ Calculates the Fibonacci number of a certain position
+ 
+ The results are returned in JSON implementing the IETF devised RFC 7807 error-handling schema (https://tools.ietf.org/html/rfc7807)
+ 
+ To obtain results with large numbers, BigInteger has been used for calculations
+ 
+ It has error control in parameters and their corresponding tests
+ 
+ The info and error messages have been written in English to give uniformity to the output of messages, since some messages are the result of exceptions
+ 
+ It is ready to work on port 8080
+ 
+ The URI path is `/fibonacci/`
+ 
+ The `position` parameter indicates the position to be calculated, it must be 0 or positive
+ 
+ URL `protocol://host:8080/fibonacci/{position}`
 
 ### Reference Documentation
 For further reference, please consider the following sections:
