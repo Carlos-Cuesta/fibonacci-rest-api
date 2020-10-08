@@ -34,7 +34,7 @@
  
  The info and error messages have been written in English to give uniformity to the output of messages, since some messages are the result of exceptions
  
- It is ready to work on port 8080
+ It is ready to work on port `8080`
  
  The URI path is `/fibonacci/`
  
@@ -45,7 +45,7 @@
 ### Reference Documentation
 For further reference, please consider the following sections:
 
-* [Internet Engineering Task Force](https://tools.ietf.org/html/rfc7807)
+* [Internet Engineering Task Force RFC 7807](https://tools.ietf.org/html/rfc7807)
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/maven-plugin/reference/html/)
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/maven-plugin/reference/html/#build-image)
