@@ -11,7 +11,9 @@
  
  Tiene control de errores en parámetros y sus correspondientes test
  
- Los mensajes de info y error se han redactado en inglés para dar uniformidad a la salida de mensajes, ya que algunos mensajes son resultado de excepciones
+ Los mensajes de info y error se han redactado en inglés para dar uniformidad a la salida de mensajes, ya que algunos mensajes son resultado de excepciones.
+ 
+ Tiene control de timeout, si la operación de cálculo lleva más de 60 segundos, devuelve un error. 
  
  Esta preparada para funcionar en el puerto `8080`
  
@@ -20,8 +22,8 @@
  El parámetro `position` indica la posición que se desea calcular, debe ser 0 o positivo
  
  URL `protocol://host:8080/fibonacci/{position}`
-
-### ENGLISH
+ 
+ ### ENGLISH
  This Restful API demo was done with Spring Boot
  
  Calculates the Fibonacci number of a certain position
@@ -33,6 +35,8 @@
  It has error control in parameters and their corresponding tests
  
  The info and error messages have been written in English to give uniformity to the output of messages, since some messages are the result of exceptions
+ 
+ Timeout control, if the calculation operation takes more than 60 seconds, it returns an error.
  
  It is ready to work on port `8080`
  
